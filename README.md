@@ -4,8 +4,8 @@ A source-linked, machine-readable collection of free tiers, trial credits, limit
 
 The data is published by [AI Plug](https://aiplug.work/en/deals), a self-hosted multi-provider LLM API relay. The [Chinese deals page](https://aiplug.work/deals) shows the same collection. Every entry carries a `source_url` and a `verified_at` date, so each claim can be checked against its source and its freshness is explicit.
 
-**Dataset generated:** `2026-08-31T00:00:00Z`<br>
-**Status cutoff:** `2026-08-31` (derived from `generated_at`)<br>
+**Dataset generated:** `2026-09-01`<br>
+**Status cutoff:** `2026-09-01` (derived from `generated_at`)<br>
 **Entries:** 49 live, 0 expired
 
 ## Live deals
