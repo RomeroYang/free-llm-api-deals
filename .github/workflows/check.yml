@@ -1,0 +1,16 @@
+name: Check generated README
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check README is current
+        run: python3 scripts/render-readme.py --check
