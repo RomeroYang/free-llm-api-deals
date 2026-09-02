@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01",
+  "generated_at": "2026-09-02",
   "entries": [
     {
       "id": "opencode-zen-gpt-5.6-sol-half-price",
@@ -102,8 +102,8 @@
       "id": "cloudflare-workers-ai-free",
       "title": "Cloudflare Workers AI 免费层",
       "title_en": "Cloudflare Workers AI free tier",
-      "summary": "每天 10,000 neurons,文本模型约 300 RPM(数据来源: jtig37 维护列表)",
-      "summary_en": "10,000 neurons per day, about 300 RPM for text models (source: jtig37 maintained list)",
+      "summary": "每天 10,000 neurons,文本模型约 300 RPM",
+      "summary_en": "10,000 neurons per day, about 300 RPM for text models",
       "model": "various-open-models",
       "provider": "Cloudflare Workers AI",
       "kind": "free-tier",
@@ -605,31 +605,6 @@
       ]
     },
     {
-      "id": "hyperbolic-free-testing-period",
-      "title": "Hyperbolic 405B 免费测试期",
-      "title_en": "Hyperbolic 405B free testing period",
-      "summary": "200 RPM,含 Llama 3.1 405B 等大模型(数据来源: jtig37 维护列表)",
-      "summary_en": "200 RPM, including large models such as Llama 3.1 405B (source: jtig37 maintained list)",
-      "model": "llama-3.1-405b-instruct",
-      "provider": "Hyperbolic",
-      "kind": "time-limited",
-      "rpm": 200,
-      "rpd": null,
-      "credit_usd": null,
-      "card_needed": false,
-      "openai_compatible": true,
-      "coding": true,
-      "verified_at": "2026-08-31",
-      "expires_at": null,
-      "source_url": "https://raw.githubusercontent.com/jtig37/free-llm-api-resources/main/README.md",
-      "tags": [
-        "free",
-        "hyperbolic",
-        "llama"
-      ],
-      "verify_needle": "Llama 3.1 405B Instruct"
-    },
-    {
       "id": "nvidia-direct-kimi-k3-free",
       "title": "Kimi K3 (免费端点)",
       "title_en": "Kimi K3 (free endpoint)",
@@ -935,31 +910,6 @@
         "nvidia",
         "trial"
       ]
-    },
-    {
-      "id": "ovh-ai-endpoints-free-alpha",
-      "title": "OVH AI Endpoints Free Alpha",
-      "title_en": "OVH AI Endpoints Free Alpha",
-      "summary": "12 RPM,Token 每 2 周过期(数据来源: jtig37 维护列表)",
-      "summary_en": "12 RPM, tokens expire every two weeks (source: jtig37 maintained list)",
-      "model": "mixtral-8x22b-instruct",
-      "provider": "OVH AI Endpoints",
-      "kind": "time-limited",
-      "rpm": 12,
-      "rpd": null,
-      "credit_usd": null,
-      "card_needed": false,
-      "openai_compatible": true,
-      "coding": false,
-      "verified_at": "2026-08-31",
-      "expires_at": null,
-      "source_url": "https://raw.githubusercontent.com/jtig37/free-llm-api-resources/main/README.md",
-      "tags": [
-        "free",
-        "ovh",
-        "alpha"
-      ],
-      "verify_needle": "Mixtral 8x22B Instruct"
     },
     {
       "id": "nvidia-direct-gpt-oss-120b-free",

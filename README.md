@@ -4,9 +4,9 @@ A source-linked, machine-readable collection of free tiers, trial credits, limit
 
 The data is published by [AI Plug](https://aiplug.work/en/deals), a self-hosted multi-provider LLM API relay. The [Chinese deals page](https://aiplug.work/deals) shows the same collection. Every entry carries a `source_url` and a `verified_at` date, so each claim can be checked against its source and its freshness is explicit.
 
-**Dataset generated:** `2026-09-01`<br>
-**Status cutoff:** `2026-09-01` (derived from `generated_at`)<br>
-**Entries:** 49 live, 0 expired
+**Dataset generated:** `2026-09-02`<br>
+**Status cutoff:** `2026-09-02` (derived from `generated_at`)<br>
+**Entries:** 47 live, 0 expired
 
 ## Live deals
 
@@ -17,7 +17,7 @@ Dated offers are ordered by the soonest expiry, followed by offers with no annou
 | **GPT 5.6 Sol 50% off**<br><sub>OpenCode Zen offers GPT 5.6 Sol at 50% off through September 18, 2026</sub> | OpenCode Zen | `price-cut` | — | 2026-09-18 | Yes | 2026-08-31 | [Source](<https://opencode.ai/docs/zen>) |
 | **Dots Studio Dots3-Note Preview (free)**<br><sub>Free MoE, 512K context, ends September 30, 2026</sub> | OpenRouter | `time-limited` | — | 2026-09-30 | No | 2026-08-31 | [Source](<https://openrouter.ai/api/v1/models>) |
 | **Cerebras $5 trial credit**<br><sub>New accounts receive $5 in trial credit, usable across all Cerebras models</sub> | Cerebras Inference | `trial-credit` | $5.0 credit | No announced end date | No | 2026-08-31 | [Source](<https://www.cerebras.ai/pricing>) |
-| **Cloudflare Workers AI free tier**<br><sub>10,000 neurons per day, about 300 RPM for text models (source: jtig37 maintained list)</sub> | Cloudflare Workers AI | `free-tier` | 300 RPM | No announced end date | No | 2026-08-31 | [Source](<https://developers.cloudflare.com/workers-ai/platform/pricing/>) |
+| **Cloudflare Workers AI free tier**<br><sub>10,000 neurons per day, about 300 RPM for text models</sub> | Cloudflare Workers AI | `free-tier` | 300 RPM | No announced end date | No | 2026-08-31 | [Source](<https://developers.cloudflare.com/workers-ai/platform/pricing/>) |
 | **Cohere Evaluation Key free tier**<br><sub>Free evaluation key: 20 RPM, with 1,000 requests per month shared across the account</sub> | Cohere | `free-tier` | 20 RPM | No announced end date | No | 2026-08-31 | [Source](<https://docs.cohere.com/docs/rate-limits>) |
 | **Fireworks Serverless Inference $1 trial credit**<br><sub>New accounts receive $1 in trial credit, usable across all serverless models</sub> | Fireworks AI | `trial-credit` | $1.0 credit | No announced end date | No | 2026-08-31 | [Source](<https://fireworks.ai/pricing>) |
 | **Gemini 2.5 Flash (free)**<br><sub>Standard input and output are free on the free tier, suited to batch and real-time workloads (source: ai.google.dev/gemini-api/docs/pricing)</sub> | Google AI Studio (Gemini API) | `free-tier` | — | No announced end date | Yes | 2026-08-31 | [Source](<https://ai.google.dev/gemini-api/docs/pricing>) |
@@ -37,7 +37,6 @@ Dated offers are ordered by the soonest expiry, followed by offers with no annou
 | **Qwen 3 27B (free tier)**<br><sub>Groq free tier: 30 RPM / 1K RPD / 8K TPM / 200K TPD</sub> | Groq | `free-tier` | 30 RPM, 1000 RPD | No announced end date | Yes | 2026-08-31 | [Source](<https://console.groq.com/docs/rate-limits>) |
 | **Whisper Large v3 (free tier)**<br><sub>Groq free tier: 20 RPM / 2K RPD, 7.2K audio seconds per minute</sub> | Groq | `free-tier` | 20 RPM, 2000 RPD | No announced end date | No | 2026-08-31 | [Source](<https://console.groq.com/docs/rate-limits>) |
 | **Hugging Face Inference Providers monthly free credits**<br><sub>Free users receive $0.10 monthly; PRO users receive $2.00 monthly, usable across all providers</sub> | Hugging Face Inference Providers | `free-tier` | $0.1 credit | No announced end date | No | 2026-08-31 | [Source](<https://huggingface.co/docs/api-inference/pricing>) |
-| **Hyperbolic 405B free testing period**<br><sub>200 RPM, including large models such as Llama 3.1 405B (source: jtig37 maintained list)</sub> | Hyperbolic | `time-limited` | 200 RPM | No announced end date | Yes | 2026-08-31 | [Source](<https://raw.githubusercontent.com/jtig37/free-llm-api-resources/main/README.md>) |
 | **DeepSeek V4 Pro (free endpoint)**<br><sub>Direct NVIDIA free endpoint, 1M-token context, MoE, positioned for coding and agentic use</sub> | NVIDIA (integrate.api.nvidia.com) | `free-tier` | 40 RPM, 10000 RPD | No announced end date | Yes | 2026-08-31 | [Source](<https://build.nvidia.com/deepseek-ai/deepseek-v4-pro-0813>) |
 | **OpenAI GPT OSS 120B (free endpoint)**<br><sub>Direct NVIDIA free endpoint, OpenAI open weights, supports tool calling</sub> | NVIDIA (integrate.api.nvidia.com) | `free-tier` | 40 RPM, 10000 RPD | No announced end date | Yes | 2026-08-31 | [Source](<https://build.nvidia.com/openai/gpt-oss-120b>) |
 | **OpenAI GPT OSS 20B (free endpoint)**<br><sub>Direct NVIDIA free endpoint, compact OpenAI open-weights model, supports tool calling</sub> | NVIDIA (integrate.api.nvidia.com) | `free-tier` | 40 RPM, 10000 RPD | No announced end date | Yes | 2026-08-31 | [Source](<https://build.nvidia.com/openai/gpt-oss-20b>) |
@@ -61,7 +60,6 @@ Dated offers are ordered by the soonest expiry, followed by offers with no annou
 | **Poolside Laguna S 2.1 (free)**<br><sub>Free coding agent model, 70.2% on Terminal-Bench 2.1</sub> | OpenRouter | `always-free` | — | No announced end date | Yes | 2026-08-31 | [Source](<https://openrouter.ai/api/v1/models>) |
 | **Thinking Machines Inkling (free)**<br><sub>Free large multimodal reasoning model, 1M context, 41B active / 975B total</sub> | OpenRouter | `always-free` | — | No announced end date | No | 2026-08-31 | [Source](<https://openrouter.ai/api/v1/models>) |
 | **Thinking Machines Inkling Small (free)**<br><sub>Free multimodal MoE, 1M context, 12B active / 276B total</sub> | OpenRouter | `always-free` | — | No announced end date | No | 2026-08-31 | [Source](<https://openrouter.ai/api/v1/models>) |
-| **OVH AI Endpoints Free Alpha**<br><sub>12 RPM, tokens expire every two weeks (source: jtig37 maintained list)</sub> | OVH AI Endpoints | `time-limited` | 12 RPM | No announced end date | No | 2026-08-31 | [Source](<https://raw.githubusercontent.com/jtig37/free-llm-api-resources/main/README.md>) |
 | **Ternary Bonsai 27B (free)**<br><sub>Together AI's only free serverless model, by Prism ML, 262K context; no function calling or structured output, dynamic limits (see 429 headers)</sub> | Together AI | `always-free` | — | No announced end date | No | 2026-08-31 | [Source](<https://docs.together.ai/docs/serverless-models>) |
 
 ## Expired offers
