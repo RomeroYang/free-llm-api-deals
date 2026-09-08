@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07",
+  "generated_at": "2026-09-08",
   "entries": [
     {
       "id": "opencode-zen-gpt-5.6-sol-half-price",
@@ -23,7 +23,8 @@
         "discount",
         "opencode",
         "gpt"
-      ]
+      ],
+      "stale": true
     },
     {
       "id": "openrouter-dots-3-note-preview-free",
@@ -48,7 +49,8 @@
         "openrouter",
         "moe",
         "preview"
-      ]
+      ],
+      "stale": true
     },
     {
       "id": "opencode-zen-big-pickle-free",
@@ -72,7 +74,8 @@
         "free",
         "opencode",
         "limited-time"
-      ]
+      ],
+      "stale": true
     },
     {
       "id": "cerebras-5usd-trial-credit",
@@ -96,7 +99,8 @@
         "trial",
         "cerebras",
         "credit"
-      ]
+      ],
+      "stale": true
     },
     {
       "id": "cloudflare-workers-ai-free",
@@ -120,7 +124,8 @@
         "free",
         "cloudflare",
         "edge"
-      ]
+      ],
+      "stale": true
     },
     {
       "id": "cohere-command-r-free-tier",
@@ -145,7 +150,8 @@
         "cohere",
         "trial"
       ],
-      "verify_needle": "evaluation key"
+      "verify_needle": "evaluation key",
+      "stale": true
     },
     {
       "id": "nvidia-direct-deepseek-v4-pro-free",
@@ -172,7 +178,8 @@
         "moe",
         "code",
         "1m-context"
-      ]
+      ],
+      "stale": true
     },
     {
       "id": "fireworks-serverless-1usd-credit",
@@ -196,7 +203,8 @@
         "trial",
         "fireworks",
         "credit"
-      ]
+      ],
+      "stale": true
     },
     {
       "id": "groq-gpt-oss-120b-free",
@@ -221,7 +229,8 @@
         "groq",
         "openai",
         "gpt-oss"
-      ]
+      ],
+      "stale": true
     },
     {
       "id": "groq-gpt-oss-20b-free",
@@ -246,7 +255,8 @@
         "groq",
         "openai",
         "gpt-oss"
-      ]
+      ],
+      "stale": true
     },
     {
       "id": "gemini-3-flash-preview-free",
@@ -455,7 +465,8 @@
         "free",
         "groq",
         "agent"
-      ]
+      ],
+      "stale": true
     },
     {
       "id": "hf-inference-providers-free-credit",
@@ -480,7 +491,8 @@
         "huggingface",
         "router",
         "monthly-credit"
-      ]
+      ],
+      "stale": true
     },
     {
       "id": "opencode-zen-hy3-free",
@@ -504,7 +516,8 @@
         "free",
         "opencode",
         "limited-time"
-      ]
+      ],
+      "stale": true
     },
     {
       "id": "nvidia-direct-kimi-k3-free",
@@ -531,7 +544,8 @@
         "moe",
         "agent",
         "code"
-      ]
+      ],
+      "stale": true
     },
     {
       "id": "openrouter-ling-3.0-flash-fin-free",
@@ -556,7 +570,8 @@
         "openrouter",
         "finance",
         "moe"
-      ]
+      ],
+      "stale": true
     },
     {
       "id": "openrouter-liquid-lfm-2.5-2.6b-free",
@@ -581,7 +596,8 @@
         "openrouter",
         "agent",
         "small"
-      ]
+      ],
+      "stale": true
     },
     {
       "id": "nvidia-direct-meta-muse-glimmer-30b-free",
@@ -608,7 +624,8 @@
         "multimodal",
         "tools",
         "code"
-      ]
+      ],
+      "stale": true
     },
     {
       "id": "opencode-zen-mimo-v2.5-free",
@@ -632,7 +649,8 @@
         "free",
         "opencode",
         "limited-time"
-      ]
+      ],
+      "stale": true
     },
     {
       "id": "nvidia-direct-nemotron-3-embed-1b-free",
@@ -658,7 +676,8 @@
         "nemotron",
         "embedding",
         "rag"
-      ]
+      ],
+      "stale": true
     },
     {
       "id": "nvidia-direct-nemotron-omni-30b-free",
@@ -684,7 +703,8 @@
         "nemotron",
         "omni-modal",
         "moe"
-      ]
+      ],
+      "stale": true
     },
     {
       "id": "nvidia-direct-nemotron-3-ultra-free",
@@ -711,7 +731,8 @@
         "moe",
         "1m-context",
         "code"
-      ]
+      ],
+      "stale": true
     },
     {
       "id": "openrouter-nvidia-nemotron-3.5-lightning-free",
@@ -736,7 +757,8 @@
         "openrouter",
         "nvidia",
         "moe"
-      ]
+      ],
+      "stale": true
     },
     {
       "id": "nvidia-direct-riva-translate-4b-free",
@@ -761,7 +783,8 @@
         "nvidia-direct",
         "translation",
         "riva"
-      ]
+      ],
+      "stale": true
     },
     {
       "id": "opencode-zen-nemotron-3-ultra-free",
@@ -786,7 +809,8 @@
         "opencode",
         "nvidia",
         "trial"
-      ]
+      ],
+      "stale": true
     },
     {
       "id": "opencode-zen-nemotron-3.5-lightning-free",
@@ -811,7 +835,8 @@
         "opencode",
         "nvidia",
         "trial"
-      ]
+      ],
+      "stale": true
     },
     {
       "id": "nvidia-direct-gpt-oss-120b-free",
@@ -838,7 +863,8 @@
         "open-weights",
         "tools",
         "code"
-      ]
+      ],
+      "stale": true
     },
     {
       "id": "nvidia-direct-gpt-oss-20b-free",
@@ -865,7 +891,8 @@
         "open-weights",
         "tools",
         "code"
-      ]
+      ],
+      "stale": true
     },
     {
       "id": "openrouter-poolside-laguna-s-2.1-free",
@@ -890,7 +917,8 @@
         "openrouter",
         "code",
         "agent"
-      ]
+      ],
+      "stale": true
     },
     {
       "id": "nvidia-direct-poolside-laguna-xs-2.1-free",
@@ -917,7 +945,8 @@
         "moe",
         "agent",
         "code"
-      ]
+      ],
+      "stale": true
     },
     {
       "id": "groq-qwen3-27b-free",
@@ -941,7 +970,8 @@
         "free",
         "groq",
         "qwen"
-      ]
+      ],
+      "stale": true
     },
     {
       "id": "nvidia-direct-step-3.7-flash-free",
@@ -968,7 +998,8 @@
         "moe",
         "multimodal",
         "reasoning"
-      ]
+      ],
+      "stale": true
     },
     {
       "id": "together-ai-ternary-bonsai-27b-free",
@@ -993,7 +1024,8 @@
         "together",
         "long-context",
         "no-tools"
-      ]
+      ],
+      "stale": true
     },
     {
       "id": "openrouter-thinkingmachines-inkling-free",
@@ -1018,7 +1050,8 @@
         "openrouter",
         "multimodal",
         "reasoning"
-      ]
+      ],
+      "stale": true
     },
     {
       "id": "openrouter-thinkingmachines-inkling-small-free",
@@ -1043,7 +1076,8 @@
         "openrouter",
         "multimodal",
         "moe"
-      ]
+      ],
+      "stale": true
     },
     {
       "id": "groq-whisper-large-v3-free",
@@ -1068,7 +1102,8 @@
         "groq",
         "audio",
         "whisper"
-      ]
+      ],
+      "stale": true
     },
     {
       "id": "nvidia-direct-minimax-m3-free",
@@ -1094,7 +1129,8 @@
         "minimax",
         "multimodal",
         "vlm"
-      ]
+      ],
+      "stale": true
     }
   ]
 }
