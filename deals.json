@@ -27,36 +27,10 @@
       "stale": true
     },
     {
-      "id": "openrouter-dots-3-note-preview-free",
-      "title": "Dots Studio Dots3-Note Preview (免费)",
-      "title_en": "Dots Studio Dots3-Note Preview (free)",
-      "summary": "免费 MoE,512K 上下文,2026-09-30 截止",
-      "summary_en": "Free MoE, 512K context, ends September 30, 2026.",
-      "model": "dots-3-note-preview",
-      "provider": "OpenRouter",
-      "kind": "time-limited",
-      "rpm": null,
-      "rpd": null,
-      "credit_usd": null,
-      "card_needed": false,
-      "openai_compatible": true,
-      "coding": false,
-      "verified_at": "2026-08-31",
-      "expires_at": "2026-09-30",
-      "source_url": "https://openrouter.ai/api/v1/models",
-      "tags": [
-        "free",
-        "openrouter",
-        "moe",
-        "preview"
-      ],
-      "stale": true
-    },
-    {
-      "title": "Dots Studio: Dots3-Note Preview 免费试用",
-      "summary": "OpenRouter 免费试用至 2026-09-30,512000 token 上下文,支持文本+图像输入",
-      "title_en": "Dots Studio: Dots3-Note Preview (free trial)",
-      "summary_en": "Free tier on OpenRouter until Sept 30, 2026, with 512K context and image support.",
+      "title": "Dots Studio: Dots3-Note Preview (免费)",
+      "summary": "OpenRouter 时限免费(至2026-09-30),512000 token context、支持文本和图像输入",
+      "title_en": "Dots Studio: Dots3-Note Preview (free)",
+      "summary_en": "Limited-time free preview on OpenRouter (through 2026-09-30) with 512K context, text and image input.",
       "id": "openrouter-dots-studio-dots-3-note-preview-free-free",
       "kind": "time-limited",
       "model": "dots-studio/dots-3-note-preview:free",
@@ -177,10 +151,10 @@
       "stale": true
     },
     {
-      "title": "Cohere: North Mini Code 免费版",
-      "summary": "OpenRouter 永久免费,256000 token 上下文,编码代理模型",
+      "title": "Cohere: North Mini Code (免费)",
+      "summary": "OpenRouter 永久免费,256000 token context、agentic编码模型",
       "title_en": "Cohere: North Mini Code (free)",
-      "summary_en": "Permanent free tier on OpenRouter, agentic coding model with 256K context.",
+      "summary_en": "Permanent free tier on OpenRouter with 256K context, optimized for agentic coding.",
       "id": "openrouter-cohere-north-mini-code-free-free",
       "kind": "always-free",
       "model": "cohere/north-mini-code:free",
@@ -497,10 +471,10 @@
       "stale": true
     },
     {
-      "title": "Google: Gemma 4 26B A4B 免费版",
-      "summary": "OpenRouter 永久免费,262144 token 上下文,支持文本+图像+视频输入",
+      "title": "Google: Gemma 4 26B A4B (免费)",
+      "summary": "OpenRouter 永久免费,262144 token context、支持文本、图像、视频输入",
       "title_en": "Google: Gemma 4 26B A4B (free)",
-      "summary_en": "Permanent free tier on OpenRouter with 262K context, multimodal input (text, image, video).",
+      "summary_en": "Permanent free tier on OpenRouter with 262K context, multimodal (text, image, video) MoE model.",
       "id": "openrouter-google-gemma-4-26b-a4b-it-free-free",
       "kind": "always-free",
       "model": "google/gemma-4-26b-a4b-it:free",
@@ -520,10 +494,10 @@
       "coding": false
     },
     {
-      "title": "Google: Gemma 4 31B 免费版",
-      "summary": "OpenRouter 永久免费,262144 token 上下文,支持文本+图像+视频输入",
+      "title": "Google: Gemma 4 31B (免费)",
+      "summary": "OpenRouter 永久免费,262144 token context、支持文本、图像、视频输入、原生函数调用",
       "title_en": "Google: Gemma 4 31B (free)",
-      "summary_en": "Permanent free tier on OpenRouter with 262K context, multimodal input and function calling.",
+      "summary_en": "Permanent free tier on OpenRouter with 262K context, multimodal (text, image, video) with native function calling.",
       "id": "openrouter-google-gemma-4-31b-it-free-free",
       "kind": "always-free",
       "model": "google/gemma-4-31b-it:free",
@@ -594,31 +568,6 @@
       "stale": true
     },
     {
-      "id": "opencode-zen-hy3-free",
-      "title": "Hy3 (限时免费)",
-      "title_en": "Hy3 (free for a limited time)",
-      "summary": "OpenCode Zen 限时免费",
-      "summary_en": "Free on OpenCode Zen for a limited time.",
-      "model": "hy3-free",
-      "provider": "OpenCode Zen",
-      "kind": "time-limited",
-      "rpm": null,
-      "rpd": null,
-      "credit_usd": null,
-      "card_needed": false,
-      "openai_compatible": true,
-      "coding": true,
-      "verified_at": "2026-08-31",
-      "expires_at": null,
-      "source_url": "https://opencode.ai/docs/zen",
-      "tags": [
-        "free",
-        "opencode",
-        "limited-time"
-      ],
-      "stale": true
-    },
-    {
       "id": "nvidia-direct-kimi-k3-free",
       "title": "Kimi K3 (免费端点)",
       "title_en": "Kimi K3 (free endpoint)",
@@ -643,58 +592,6 @@
         "moe",
         "agent",
         "code"
-      ],
-      "stale": true
-    },
-    {
-      "id": "openrouter-ling-3.0-flash-fin-free",
-      "title": "Ling 3.0 Flash Fin (免费)",
-      "title_en": "Ling 3.0 Flash Fin (free)",
-      "summary": "OpenRouter 永久免费,金融专用 MoE,单次最多 32768 输出 token.",
-      "summary_en": "Always free on OpenRouter, finance-focused MoE, up to 32,768 output tokens per request.",
-      "model": "ling-3.0-flash-fin",
-      "provider": "OpenRouter",
-      "kind": "always-free",
-      "rpm": null,
-      "rpd": null,
-      "credit_usd": null,
-      "card_needed": false,
-      "openai_compatible": true,
-      "coding": false,
-      "verified_at": "2026-08-31",
-      "expires_at": null,
-      "source_url": "https://openrouter.ai/api/v1/models",
-      "tags": [
-        "free",
-        "openrouter",
-        "finance",
-        "moe"
-      ],
-      "stale": true
-    },
-    {
-      "id": "openrouter-liquid-lfm-2.5-2.6b-free",
-      "title": "LiquidAI LFM2.5-2.6B (免费)",
-      "title_en": "LiquidAI LFM2.5-2.6B (free)",
-      "summary": "免费紧凑推理模型,适合 Agent 与 RAG.",
-      "summary_en": "Free compact reasoning model suited to agents and RAG.",
-      "model": "lfm-2.5-2.6b",
-      "provider": "OpenRouter",
-      "kind": "always-free",
-      "rpm": null,
-      "rpd": null,
-      "credit_usd": null,
-      "card_needed": false,
-      "openai_compatible": true,
-      "coding": true,
-      "verified_at": "2026-08-31",
-      "expires_at": null,
-      "source_url": "https://openrouter.ai/api/v1/models",
-      "tags": [
-        "free",
-        "openrouter",
-        "agent",
-        "small"
       ],
       "stale": true
     },
@@ -834,32 +731,6 @@
       "stale": true
     },
     {
-      "id": "openrouter-nvidia-nemotron-3.5-lightning-free",
-      "title": "NVIDIA Nemotron 3.5 Lightning (免费)",
-      "title_en": "NVIDIA Nemotron 3.5 Lightning (free)",
-      "summary": "OpenRouter 永久免费,1M 上下文,3B active / 30B total MoE.",
-      "summary_en": "Always free on OpenRouter, 1M context, 3B active / 30B total MoE.",
-      "model": "nemotron-3.5-lightning",
-      "provider": "OpenRouter",
-      "kind": "always-free",
-      "rpm": null,
-      "rpd": null,
-      "credit_usd": null,
-      "card_needed": false,
-      "openai_compatible": true,
-      "coding": false,
-      "verified_at": "2026-08-31",
-      "expires_at": null,
-      "source_url": "https://openrouter.ai/api/v1/models",
-      "tags": [
-        "free",
-        "openrouter",
-        "nvidia",
-        "moe"
-      ],
-      "stale": true
-    },
-    {
       "id": "nvidia-direct-riva-translate-4b-free",
       "title": "NVIDIA Riva Translate 4B Instruct v2 (免费端点)",
       "title_en": "NVIDIA Riva Translate 4B Instruct v2 (free endpoint)",
@@ -886,10 +757,10 @@
       "stale": true
     },
     {
-      "title": "NVIDIA: Nemotron 3 Nano Omni 免费版",
-      "summary": "OpenRouter 永久免费,256000 token 上下文,支持文本+图像+音频+视频输入",
+      "title": "NVIDIA: Nemotron 3 Nano Omni (免费)",
+      "summary": "OpenRouter 永久免费,256000 token context、支持文本、图像、音频、视频输入",
       "title_en": "NVIDIA: Nemotron 3 Nano Omni (free)",
-      "summary_en": "Permanent free tier on OpenRouter with 256K context, multimodal input (text, image, audio, video).",
+      "summary_en": "Permanent free tier on OpenRouter with 256K context, multimodal (text, image, audio, video) perception model.",
       "id": "openrouter-nvidia-nemotron-3-nano-omni-30b-a3b-reasoning-free-free",
       "kind": "always-free",
       "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
@@ -909,10 +780,10 @@
       "coding": true
     },
     {
-      "title": "NVIDIA: Nemotron 3 Super 免费版",
-      "summary": "OpenRouter 永久免费,262144 token 上下文,多代理应用模型",
+      "title": "NVIDIA: Nemotron 3 Super (免费)",
+      "summary": "OpenRouter 永久免费,262144 token context、混合MoE模型、multi-agent应用",
       "title_en": "NVIDIA: Nemotron 3 Super (free)",
-      "summary_en": "Permanent free tier on OpenRouter with 262K context for complex multi-agent applications.",
+      "summary_en": "Permanent free tier on OpenRouter with 262K context, hybrid MoE model optimized for multi-agent applications.",
       "id": "openrouter-nvidia-nemotron-3-super-120b-a12b-free-free",
       "kind": "always-free",
       "model": "nvidia/nemotron-3-super-120b-a12b:free",
@@ -932,10 +803,10 @@
       "coding": true
     },
     {
-      "title": "NVIDIA: Nemotron 3 Ultra 免费版",
-      "summary": "OpenRouter 永久免费,1000000 token 上下文,前沿推理和编排模型",
+      "title": "NVIDIA: Nemotron 3 Ultra (免费)",
+      "summary": "OpenRouter 永久免费,1000000 token context、frontier推理模型",
       "title_en": "NVIDIA: Nemotron 3 Ultra (free)",
-      "summary_en": "Permanent free tier on OpenRouter with 1M context for frontier reasoning and orchestration.",
+      "summary_en": "Permanent free tier on OpenRouter with 1M context, frontier reasoning and orchestration model.",
       "id": "openrouter-nvidia-nemotron-3-ultra-550b-a55b-free-free",
       "kind": "always-free",
       "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
@@ -955,10 +826,10 @@
       "coding": true
     },
     {
-      "title": "NVIDIA: Nemotron 3.5 Lightning 免费版",
-      "summary": "OpenRouter 永久免费,1000000 token 上下文,高吞吐量代理模型",
+      "title": "NVIDIA: Nemotron 3.5 Lightning (免费)",
+      "summary": "OpenRouter 永久免费,1000000 token context、用于高吞吐量agentic工作负载",
       "title_en": "NVIDIA: Nemotron 3.5 Lightning (free)",
-      "summary_en": "Permanent free tier on OpenRouter with 1M context for agentic workloads.",
+      "summary_en": "Permanent free tier on OpenRouter with 1M context, optimized for high-throughput agentic workloads.",
       "id": "openrouter-nvidia-nemotron-3-5-lightning-free-free",
       "kind": "always-free",
       "model": "nvidia/nemotron-3.5-lightning:free",
@@ -1030,10 +901,10 @@
       "stale": true
     },
     {
-      "title": "Nex AGI: Nex-N2.5-Mini 免费版",
-      "summary": "OpenRouter 永久免费,262144 token 上下文,代理式编码模型",
+      "title": "Nex AGI: Nex-N2.5-Mini (免费)",
+      "summary": "OpenRouter 永久免费,262144 token context、agentic coding 模型",
       "title_en": "Nex AGI: Nex-N2.5-Mini (free)",
-      "summary_en": "Permanent free tier on OpenRouter, agentic model for coding and multi-file exploration.",
+      "summary_en": "Permanent free tier on OpenRouter with 262K context, optimized for agentic coding workflows.",
       "id": "openrouter-nex-agi-nex-n2-5-mini-free-free",
       "kind": "always-free",
       "model": "nex-agi/nex-n2.5-mini:free",
@@ -1053,10 +924,10 @@
       "coding": true
     },
     {
-      "title": "Nex AGI: Nex-N2.5-Pro 免费版",
-      "summary": "OpenRouter 永久免费,262144 token 上下文,代理式编码模型",
+      "title": "Nex AGI: Nex-N2.5-Pro (免费)",
+      "summary": "OpenRouter 永久免费,262144 token context、agentic coding 模型",
       "title_en": "Nex AGI: Nex-N2.5-Pro (free)",
-      "summary_en": "Permanent free tier on OpenRouter, agentic model for coding and multi-file exploration.",
+      "summary_en": "Permanent free tier on OpenRouter with 262K context, optimized for agentic coding workflows.",
       "id": "openrouter-nex-agi-nex-n2-5-pro-free-free",
       "kind": "always-free",
       "model": "nex-agi/nex-n2.5-pro:free",
@@ -1132,55 +1003,6 @@
       "stale": true
     },
     {
-      "title": "OpenRouter: Free Models Router 免费版",
-      "summary": "OpenRouter 永久免费,200000 token 上下文,随机路由多个免费模型",
-      "title_en": "OpenRouter: Free Models Router (free)",
-      "summary_en": "Permanent free tier on OpenRouter routing to available free models with 200K context.",
-      "id": "openrouter-openrouter-free-free",
-      "kind": "always-free",
-      "model": "openrouter/free",
-      "provider": "OpenRouter",
-      "source_url": "https://openrouter.ai/api/v1/models",
-      "verified_at": "2026-09-11",
-      "expires_at": null,
-      "rpm": null,
-      "rpd": null,
-      "credit_usd": null,
-      "card_needed": false,
-      "openai_compatible": true,
-      "tags": [
-        "free",
-        "openrouter"
-      ],
-      "coding": true
-    },
-    {
-      "id": "openrouter-poolside-laguna-s-2.1-free",
-      "title": "Poolside Laguna S 2.1 (免费)",
-      "title_en": "Poolside Laguna S 2.1 (free)",
-      "summary": "免费编码 Agent 模型,Terminal-Bench 2.1 70.2%",
-      "summary_en": "Free coding agent model, 70.2% on Terminal-Bench 2.1.",
-      "model": "laguna-s-2.1",
-      "provider": "OpenRouter",
-      "kind": "always-free",
-      "rpm": null,
-      "rpd": null,
-      "credit_usd": null,
-      "card_needed": false,
-      "openai_compatible": true,
-      "coding": true,
-      "verified_at": "2026-08-31",
-      "expires_at": null,
-      "source_url": "https://openrouter.ai/api/v1/models",
-      "tags": [
-        "free",
-        "openrouter",
-        "code",
-        "agent"
-      ],
-      "stale": true
-    },
-    {
       "id": "nvidia-direct-poolside-laguna-xs-2.1-free",
       "title": "Poolside Laguna XS 2.1 (免费端点)",
       "title_en": "Poolside Laguna XS 2.1 (free endpoint)",
@@ -1209,10 +1031,10 @@
       "stale": true
     },
     {
-      "title": "Poolside: Laguna S 2.1 免费版",
-      "summary": "OpenRouter 永久免费,262144 token 上下文,编码代理模型",
+      "title": "Poolside: Laguna S 2.1 (免费)",
+      "summary": "OpenRouter 永久免费,262144 token context、最新编码agent模型",
       "title_en": "Poolside: Laguna S 2.1 (free)",
-      "summary_en": "Permanent free tier on OpenRouter for coding agent workloads with 262K context.",
+      "summary_en": "Permanent free tier on OpenRouter with 262K context, latest coding agent model.",
       "id": "openrouter-poolside-laguna-s-2-1-free-free",
       "kind": "always-free",
       "model": "poolside/laguna-s-2.1:free",
@@ -1232,10 +1054,10 @@
       "coding": true
     },
     {
-      "title": "Poolside: Laguna XS 2.1 免费版",
-      "summary": "OpenRouter 永久免费,262144 token 上下文,编码代理模型",
+      "title": "Poolside: Laguna XS 2.1 (免费)",
+      "summary": "OpenRouter 永久免费,262144 token context、编码agent模型",
       "title_en": "Poolside: Laguna XS 2.1 (free)",
-      "summary_en": "Permanent free tier on OpenRouter for coding agent workloads with 262K context.",
+      "summary_en": "Permanent free tier on OpenRouter with 262K context, coding agent model.",
       "id": "openrouter-poolside-laguna-xs-2-1-free-free",
       "kind": "always-free",
       "model": "poolside/laguna-xs-2.1:free",
@@ -1334,85 +1156,10 @@
       "stale": true
     },
     {
-      "id": "openrouter-thinkingmachines-inkling-free",
-      "title": "Thinking Machines Inkling (免费)",
-      "title_en": "Thinking Machines Inkling (free)",
-      "summary": "免费多模态推理大模型,1M 上下文,41B active / 975B total.",
-      "summary_en": "Free large multimodal reasoning model, 1M context, 41B active / 975B total.",
-      "model": "inkling",
-      "provider": "OpenRouter",
-      "kind": "always-free",
-      "rpm": null,
-      "rpd": null,
-      "credit_usd": null,
-      "card_needed": false,
-      "openai_compatible": true,
-      "coding": false,
-      "verified_at": "2026-08-31",
-      "expires_at": null,
-      "source_url": "https://openrouter.ai/api/v1/models",
-      "tags": [
-        "free",
-        "openrouter",
-        "multimodal",
-        "reasoning"
-      ],
-      "stale": true
-    },
-    {
-      "id": "openrouter-thinkingmachines-inkling-small-free",
-      "title": "Thinking Machines Inkling Small (免费)",
-      "title_en": "Thinking Machines Inkling Small (free)",
-      "summary": "免费多模态 MoE,1M 上下文,12B active / 276B total.",
-      "summary_en": "Free multimodal MoE, 1M context, 12B active / 276B total.",
-      "model": "inkling-small",
-      "provider": "OpenRouter",
-      "kind": "always-free",
-      "rpm": null,
-      "rpd": null,
-      "credit_usd": null,
-      "card_needed": false,
-      "openai_compatible": true,
-      "coding": false,
-      "verified_at": "2026-08-31",
-      "expires_at": null,
-      "source_url": "https://openrouter.ai/api/v1/models",
-      "tags": [
-        "free",
-        "openrouter",
-        "multimodal",
-        "moe"
-      ],
-      "stale": true
-    },
-    {
-      "title": "Thinking Machines: Inkling Small 免费版",
-      "summary": "OpenRouter 永久免费,1048576 token 上下文,支持文本+图像+音频输入",
-      "title_en": "Thinking Machines: Inkling Small (free)",
-      "summary_en": "Permanent free tier on OpenRouter with 1M context, multimodal input (text, image, audio).",
-      "id": "openrouter-thinkingmachines-inkling-small-free-free",
-      "kind": "always-free",
-      "model": "thinkingmachines/inkling-small:free",
-      "provider": "OpenRouter",
-      "source_url": "https://openrouter.ai/api/v1/models",
-      "verified_at": "2026-09-11",
-      "expires_at": null,
-      "rpm": null,
-      "rpd": null,
-      "credit_usd": null,
-      "card_needed": false,
-      "openai_compatible": true,
-      "tags": [
-        "free",
-        "openrouter"
-      ],
-      "coding": false
-    },
-    {
-      "title": "Thinking Machines: Inkling 免费版",
-      "summary": "OpenRouter 永久免费,1048576 token 上下文,支持代理和工具调用",
+      "title": "Thinking Machines: Inkling (免费)",
+      "summary": "OpenRouter 永久免费,1048576 token context、支持文本、图像、音频输入、coding和agentic系统",
       "title_en": "Thinking Machines: Inkling (free)",
-      "summary_en": "Permanent free tier on OpenRouter with 1M context, designed for coding and agentic reasoning.",
+      "summary_en": "Permanent free tier on OpenRouter with 1M context, multimodal (text, image, audio), designed for coding and agentic systems.",
       "id": "openrouter-thinkingmachines-inkling-free-free",
       "kind": "always-free",
       "model": "thinkingmachines/inkling:free",
@@ -1430,6 +1177,29 @@
         "openrouter"
       ],
       "coding": true
+    },
+    {
+      "title": "Thinking Machines: Inkling Small (免费)",
+      "summary": "OpenRouter 永久免费,1048576 token context、支持文本、图像、音频输入",
+      "title_en": "Thinking Machines: Inkling Small (free)",
+      "summary_en": "Permanent free tier on OpenRouter with 1M context, multimodal (text, image, audio) input.",
+      "id": "openrouter-thinkingmachines-inkling-small-free-free",
+      "kind": "always-free",
+      "model": "thinkingmachines/inkling-small:free",
+      "provider": "OpenRouter",
+      "source_url": "https://openrouter.ai/api/v1/models",
+      "verified_at": "2026-09-11",
+      "expires_at": null,
+      "rpm": null,
+      "rpd": null,
+      "credit_usd": null,
+      "card_needed": false,
+      "openai_compatible": true,
+      "tags": [
+        "free",
+        "openrouter"
+      ],
+      "coding": false
     },
     {
       "id": "groq-whisper-large-v3-free",
@@ -1458,10 +1228,10 @@
       "stale": true
     },
     {
-      "title": "inclusionAI: Ling 3.0 Flash VL 免费版",
-      "summary": "OpenRouter 永久免费,262144 token 上下文,支持文本+图像+视频输入",
+      "title": "inclusionAI: Ling 3.0 Flash VL (免费)",
+      "summary": "OpenRouter 永久免费,262144 token context、支持文本、图像、视频输入",
       "title_en": "inclusionAI: Ling 3.0 Flash VL (free)",
-      "summary_en": "Permanent free tier on OpenRouter with 262K context, text+image+video input.",
+      "summary_en": "Permanent free tier on OpenRouter with 262K context, multimodal (text, image, video) input.",
       "id": "openrouter-inclusionai-ling-3-0-flash-vl-free-free",
       "kind": "always-free",
       "model": "inclusionai/ling-3.0-flash-vl:free",
