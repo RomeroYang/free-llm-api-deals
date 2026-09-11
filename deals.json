@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08",
+  "generated_at": "2026-09-11",
   "entries": [
     {
       "id": "opencode-zen-gpt-5.6-sol-half-price",
@@ -282,7 +282,8 @@
         "gemini",
         "flash",
         "preview"
-      ]
+      ],
+      "stale": true
     },
     {
       "id": "gemini-3.1-flash-lite-free",
@@ -309,7 +310,8 @@
         "flash",
         "lite",
         "tools"
-      ]
+      ],
+      "stale": true
     },
     {
       "id": "gemini-3.5-flash-free",
@@ -336,7 +338,8 @@
         "flash",
         "tools",
         "multimodal"
-      ]
+      ],
+      "stale": true
     },
     {
       "id": "gemini-3.5-flash-lite-free",
@@ -363,7 +366,8 @@
         "flash",
         "lite",
         "tools"
-      ]
+      ],
+      "stale": true
     },
     {
       "id": "gemini-3.6-flash-free",
@@ -390,7 +394,8 @@
         "flash",
         "tools",
         "multimodal"
-      ]
+      ],
+      "stale": true
     },
     {
       "id": "gemini-3.7-flash-free",
@@ -417,7 +422,8 @@
         "flash",
         "tools",
         "multimodal"
-      ]
+      ],
+      "stale": true
     },
     {
       "id": "gemini-embedding-2-free",
@@ -441,7 +447,8 @@
         "free",
         "google",
         "embedding"
-      ]
+      ],
+      "stale": true
     },
     {
       "id": "groq-compound-free",
@@ -1102,33 +1109,6 @@
         "groq",
         "audio",
         "whisper"
-      ],
-      "stale": true
-    },
-    {
-      "id": "nvidia-direct-minimax-m3-free",
-      "title": "minimax-M3 (免费端点)",
-      "title_en": "minimax-M3 (free endpoint)",
-      "summary": "NVIDIA 直营 free endpoint,多模态 MoE VLM(数据来源: build.nvidia.com 模型列表)",
-      "summary_en": "Direct NVIDIA free endpoint, multimodal MoE VLM (source: build.nvidia.com model list)",
-      "model": "minimaxai/minimax-m3",
-      "provider": "NVIDIA (integrate.api.nvidia.com)",
-      "kind": "free-tier",
-      "rpm": 40,
-      "rpd": 10000,
-      "credit_usd": null,
-      "card_needed": false,
-      "openai_compatible": true,
-      "coding": true,
-      "verified_at": "2026-08-31",
-      "expires_at": null,
-      "source_url": "https://build.nvidia.com/minimaxai/minimax-m3",
-      "tags": [
-        "free",
-        "nvidia-direct",
-        "minimax",
-        "multimodal",
-        "vlm"
       ],
       "stale": true
     }

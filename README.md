@@ -4,9 +4,9 @@ A source-linked, machine-readable collection of free tiers, trial credits, limit
 
 The data is published by [AI Plug](https://aiplug.work/en/deals), a self-hosted multi-provider LLM API relay. The [Chinese deals page](https://aiplug.work/deals) shows the same collection. Every entry carries a `source_url` and a `verified_at` date, so each claim can be checked against its source and its freshness is explicit.
 
-**Dataset generated:** `2026-09-08`<br>
-**Status cutoff:** `2026-09-08` (derived from `generated_at`)<br>
-**Entries:** 43 live, 0 expired
+**Dataset generated:** `2026-09-11`<br>
+**Status cutoff:** `2026-09-11` (derived from `generated_at`)<br>
+**Entries:** 42 live, 0 expired
 
 ## Live deals
 
@@ -38,7 +38,6 @@ Dated offers are ordered by the soonest expiry, followed by offers with no annou
 | **OpenAI GPT OSS 20B (free endpoint)**<br><sub>Direct NVIDIA free endpoint, compact OpenAI open-weights model, supports tool calling.</sub> | NVIDIA (integrate.api.nvidia.com) | `free-tier` | 40 RPM, 10000 RPD | No announced end date | Yes | 2026-08-31 | [Source](<https://build.nvidia.com/openai/gpt-oss-20b>) |
 | **Kimi K3 (free endpoint)**<br><sub>Direct NVIDIA free endpoint, ~2.8T hybrid KDA+MLA MoE, multimodal, long-horizon coding and agentic tool use.</sub> | NVIDIA (integrate.api.nvidia.com) | `free-tier` | 40 RPM, 10000 RPD | No announced end date | Yes | 2026-08-31 | [Source](<https://build.nvidia.com/moonshotai/kimi-k3>) |
 | **Meta Muse-Glimmer 30B (free endpoint)**<br><sub>Direct NVIDIA free endpoint, multimodal reasoning, supports tool calling.</sub> | NVIDIA (integrate.api.nvidia.com) | `free-tier` | 40 RPM, 10000 RPD | No announced end date | Yes | 2026-08-31 | [Source](<https://build.nvidia.com/meta/muse-glimmer-30b>) |
-| **minimax-M3 (free endpoint)**<br><sub>Direct NVIDIA free endpoint, multimodal MoE VLM (source: build.nvidia.com model list)</sub> | NVIDIA (integrate.api.nvidia.com) | `free-tier` | 40 RPM, 10000 RPD | No announced end date | Yes | 2026-08-31 | [Source](<https://build.nvidia.com/minimaxai/minimax-m3>) |
 | **NVIDIA Nemotron 3 Embed 1B (free endpoint)**<br><sub>Direct NVIDIA free endpoint, 1B-parameter embedding model for RAG.</sub> | NVIDIA (integrate.api.nvidia.com) | `free-tier` | 40 RPM, 10000 RPD | No announced end date | No | 2026-08-31 | [Source](<https://build.nvidia.com/nvidia/nemotron-3-embed-1b>) |
 | **NVIDIA Nemotron 3 Ultra 550B (free endpoint)**<br><sub>Direct NVIDIA free endpoint, 1M-token context, 550B MoE (55B active), hybrid Mamba+Attention.</sub> | NVIDIA (integrate.api.nvidia.com) | `free-tier` | 40 RPM, 10000 RPD | No announced end date | Yes | 2026-08-31 | [Source](<https://build.nvidia.com/nvidia/nemotron-3-ultra-550b-a55b>) |
 | **NVIDIA Nemotron 3 Nano Omni 30B (free endpoint)**<br><sub>Direct NVIDIA free endpoint, omni-modal (image/video/speech/text), MoE reasoning.</sub> | NVIDIA (integrate.api.nvidia.com) | `free-tier` | 40 RPM, 10000 RPD | No announced end date | No | 2026-08-31 | [Source](<https://build.nvidia.com/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning>) |
