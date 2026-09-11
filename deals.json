@@ -53,6 +53,29 @@
       "stale": true
     },
     {
+      "title": "Dots Studio: Dots3-Note Preview 免费试用",
+      "summary": "OpenRouter 免费试用至 2026-09-30,512000 token 上下文,支持文本+图像输入",
+      "title_en": "Dots Studio: Dots3-Note Preview (free trial)",
+      "summary_en": "Free tier on OpenRouter until Sept 30, 2026, with 512K context and image support.",
+      "id": "openrouter-dots-studio-dots-3-note-preview-free-free",
+      "kind": "time-limited",
+      "model": "dots-studio/dots-3-note-preview:free",
+      "provider": "OpenRouter",
+      "source_url": "https://openrouter.ai/api/v1/models",
+      "verified_at": "2026-09-11",
+      "expires_at": "2026-09-30",
+      "rpm": null,
+      "rpd": null,
+      "credit_usd": null,
+      "card_needed": false,
+      "openai_compatible": true,
+      "tags": [
+        "free",
+        "openrouter"
+      ],
+      "coding": false
+    },
+    {
       "id": "opencode-zen-big-pickle-free",
       "title": "Big Pickle (限时免费)",
       "title_en": "Big Pickle (free for a limited time)",
@@ -152,6 +175,29 @@
       ],
       "verify_needle": "evaluation key",
       "stale": true
+    },
+    {
+      "title": "Cohere: North Mini Code 免费版",
+      "summary": "OpenRouter 永久免费,256000 token 上下文,编码代理模型",
+      "title_en": "Cohere: North Mini Code (free)",
+      "summary_en": "Permanent free tier on OpenRouter, agentic coding model with 256K context.",
+      "id": "openrouter-cohere-north-mini-code-free-free",
+      "kind": "always-free",
+      "model": "cohere/north-mini-code:free",
+      "provider": "OpenRouter",
+      "source_url": "https://openrouter.ai/api/v1/models",
+      "verified_at": "2026-09-11",
+      "expires_at": null,
+      "rpm": null,
+      "rpd": null,
+      "credit_usd": null,
+      "card_needed": false,
+      "openai_compatible": true,
+      "tags": [
+        "free",
+        "openrouter"
+      ],
+      "coding": true
     },
     {
       "id": "nvidia-direct-deepseek-v4-pro-free",
@@ -449,6 +495,52 @@
         "embedding"
       ],
       "stale": true
+    },
+    {
+      "title": "Google: Gemma 4 26B A4B 免费版",
+      "summary": "OpenRouter 永久免费,262144 token 上下文,支持文本+图像+视频输入",
+      "title_en": "Google: Gemma 4 26B A4B (free)",
+      "summary_en": "Permanent free tier on OpenRouter with 262K context, multimodal input (text, image, video).",
+      "id": "openrouter-google-gemma-4-26b-a4b-it-free-free",
+      "kind": "always-free",
+      "model": "google/gemma-4-26b-a4b-it:free",
+      "provider": "OpenRouter",
+      "source_url": "https://openrouter.ai/api/v1/models",
+      "verified_at": "2026-09-11",
+      "expires_at": null,
+      "rpm": null,
+      "rpd": null,
+      "credit_usd": null,
+      "card_needed": false,
+      "openai_compatible": true,
+      "tags": [
+        "free",
+        "openrouter"
+      ],
+      "coding": false
+    },
+    {
+      "title": "Google: Gemma 4 31B 免费版",
+      "summary": "OpenRouter 永久免费,262144 token 上下文,支持文本+图像+视频输入",
+      "title_en": "Google: Gemma 4 31B (free)",
+      "summary_en": "Permanent free tier on OpenRouter with 262K context, multimodal input and function calling.",
+      "id": "openrouter-google-gemma-4-31b-it-free-free",
+      "kind": "always-free",
+      "model": "google/gemma-4-31b-it:free",
+      "provider": "OpenRouter",
+      "source_url": "https://openrouter.ai/api/v1/models",
+      "verified_at": "2026-09-11",
+      "expires_at": null,
+      "rpm": null,
+      "rpd": null,
+      "credit_usd": null,
+      "card_needed": false,
+      "openai_compatible": true,
+      "tags": [
+        "free",
+        "openrouter"
+      ],
+      "coding": true
     },
     {
       "id": "groq-compound-free",
@@ -794,6 +886,98 @@
       "stale": true
     },
     {
+      "title": "NVIDIA: Nemotron 3 Nano Omni 免费版",
+      "summary": "OpenRouter 永久免费,256000 token 上下文,支持文本+图像+音频+视频输入",
+      "title_en": "NVIDIA: Nemotron 3 Nano Omni (free)",
+      "summary_en": "Permanent free tier on OpenRouter with 256K context, multimodal input (text, image, audio, video).",
+      "id": "openrouter-nvidia-nemotron-3-nano-omni-30b-a3b-reasoning-free-free",
+      "kind": "always-free",
+      "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+      "provider": "OpenRouter",
+      "source_url": "https://openrouter.ai/api/v1/models",
+      "verified_at": "2026-09-11",
+      "expires_at": null,
+      "rpm": null,
+      "rpd": null,
+      "credit_usd": null,
+      "card_needed": false,
+      "openai_compatible": true,
+      "tags": [
+        "free",
+        "openrouter"
+      ],
+      "coding": true
+    },
+    {
+      "title": "NVIDIA: Nemotron 3 Super 免费版",
+      "summary": "OpenRouter 永久免费,262144 token 上下文,多代理应用模型",
+      "title_en": "NVIDIA: Nemotron 3 Super (free)",
+      "summary_en": "Permanent free tier on OpenRouter with 262K context for complex multi-agent applications.",
+      "id": "openrouter-nvidia-nemotron-3-super-120b-a12b-free-free",
+      "kind": "always-free",
+      "model": "nvidia/nemotron-3-super-120b-a12b:free",
+      "provider": "OpenRouter",
+      "source_url": "https://openrouter.ai/api/v1/models",
+      "verified_at": "2026-09-11",
+      "expires_at": null,
+      "rpm": null,
+      "rpd": null,
+      "credit_usd": null,
+      "card_needed": false,
+      "openai_compatible": true,
+      "tags": [
+        "free",
+        "openrouter"
+      ],
+      "coding": true
+    },
+    {
+      "title": "NVIDIA: Nemotron 3 Ultra 免费版",
+      "summary": "OpenRouter 永久免费,1000000 token 上下文,前沿推理和编排模型",
+      "title_en": "NVIDIA: Nemotron 3 Ultra (free)",
+      "summary_en": "Permanent free tier on OpenRouter with 1M context for frontier reasoning and orchestration.",
+      "id": "openrouter-nvidia-nemotron-3-ultra-550b-a55b-free-free",
+      "kind": "always-free",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+      "provider": "OpenRouter",
+      "source_url": "https://openrouter.ai/api/v1/models",
+      "verified_at": "2026-09-11",
+      "expires_at": null,
+      "rpm": null,
+      "rpd": null,
+      "credit_usd": null,
+      "card_needed": false,
+      "openai_compatible": true,
+      "tags": [
+        "free",
+        "openrouter"
+      ],
+      "coding": true
+    },
+    {
+      "title": "NVIDIA: Nemotron 3.5 Lightning 免费版",
+      "summary": "OpenRouter 永久免费,1000000 token 上下文,高吞吐量代理模型",
+      "title_en": "NVIDIA: Nemotron 3.5 Lightning (free)",
+      "summary_en": "Permanent free tier on OpenRouter with 1M context for agentic workloads.",
+      "id": "openrouter-nvidia-nemotron-3-5-lightning-free-free",
+      "kind": "always-free",
+      "model": "nvidia/nemotron-3.5-lightning:free",
+      "provider": "OpenRouter",
+      "source_url": "https://openrouter.ai/api/v1/models",
+      "verified_at": "2026-09-11",
+      "expires_at": null,
+      "rpm": null,
+      "rpd": null,
+      "credit_usd": null,
+      "card_needed": false,
+      "openai_compatible": true,
+      "tags": [
+        "free",
+        "openrouter"
+      ],
+      "coding": true
+    },
+    {
       "id": "opencode-zen-nemotron-3-ultra-free",
       "title": "Nemotron 3 Ultra Free (免费)",
       "title_en": "Nemotron 3 Ultra Free (free)",
@@ -844,6 +1028,52 @@
         "trial"
       ],
       "stale": true
+    },
+    {
+      "title": "Nex AGI: Nex-N2.5-Mini 免费版",
+      "summary": "OpenRouter 永久免费,262144 token 上下文,代理式编码模型",
+      "title_en": "Nex AGI: Nex-N2.5-Mini (free)",
+      "summary_en": "Permanent free tier on OpenRouter, agentic model for coding and multi-file exploration.",
+      "id": "openrouter-nex-agi-nex-n2-5-mini-free-free",
+      "kind": "always-free",
+      "model": "nex-agi/nex-n2.5-mini:free",
+      "provider": "OpenRouter",
+      "source_url": "https://openrouter.ai/api/v1/models",
+      "verified_at": "2026-09-11",
+      "expires_at": null,
+      "rpm": null,
+      "rpd": null,
+      "credit_usd": null,
+      "card_needed": false,
+      "openai_compatible": true,
+      "tags": [
+        "free",
+        "openrouter"
+      ],
+      "coding": true
+    },
+    {
+      "title": "Nex AGI: Nex-N2.5-Pro 免费版",
+      "summary": "OpenRouter 永久免费,262144 token 上下文,代理式编码模型",
+      "title_en": "Nex AGI: Nex-N2.5-Pro (free)",
+      "summary_en": "Permanent free tier on OpenRouter, agentic model for coding and multi-file exploration.",
+      "id": "openrouter-nex-agi-nex-n2-5-pro-free-free",
+      "kind": "always-free",
+      "model": "nex-agi/nex-n2.5-pro:free",
+      "provider": "OpenRouter",
+      "source_url": "https://openrouter.ai/api/v1/models",
+      "verified_at": "2026-09-11",
+      "expires_at": null,
+      "rpm": null,
+      "rpd": null,
+      "credit_usd": null,
+      "card_needed": false,
+      "openai_compatible": true,
+      "tags": [
+        "free",
+        "openrouter"
+      ],
+      "coding": true
     },
     {
       "id": "nvidia-direct-gpt-oss-120b-free",
@@ -902,6 +1132,29 @@
       "stale": true
     },
     {
+      "title": "OpenRouter: Free Models Router 免费版",
+      "summary": "OpenRouter 永久免费,200000 token 上下文,随机路由多个免费模型",
+      "title_en": "OpenRouter: Free Models Router (free)",
+      "summary_en": "Permanent free tier on OpenRouter routing to available free models with 200K context.",
+      "id": "openrouter-openrouter-free-free",
+      "kind": "always-free",
+      "model": "openrouter/free",
+      "provider": "OpenRouter",
+      "source_url": "https://openrouter.ai/api/v1/models",
+      "verified_at": "2026-09-11",
+      "expires_at": null,
+      "rpm": null,
+      "rpd": null,
+      "credit_usd": null,
+      "card_needed": false,
+      "openai_compatible": true,
+      "tags": [
+        "free",
+        "openrouter"
+      ],
+      "coding": true
+    },
+    {
       "id": "openrouter-poolside-laguna-s-2.1-free",
       "title": "Poolside Laguna S 2.1 (免费)",
       "title_en": "Poolside Laguna S 2.1 (free)",
@@ -954,6 +1207,52 @@
         "code"
       ],
       "stale": true
+    },
+    {
+      "title": "Poolside: Laguna S 2.1 免费版",
+      "summary": "OpenRouter 永久免费,262144 token 上下文,编码代理模型",
+      "title_en": "Poolside: Laguna S 2.1 (free)",
+      "summary_en": "Permanent free tier on OpenRouter for coding agent workloads with 262K context.",
+      "id": "openrouter-poolside-laguna-s-2-1-free-free",
+      "kind": "always-free",
+      "model": "poolside/laguna-s-2.1:free",
+      "provider": "OpenRouter",
+      "source_url": "https://openrouter.ai/api/v1/models",
+      "verified_at": "2026-09-11",
+      "expires_at": null,
+      "rpm": null,
+      "rpd": null,
+      "credit_usd": null,
+      "card_needed": false,
+      "openai_compatible": true,
+      "tags": [
+        "free",
+        "openrouter"
+      ],
+      "coding": true
+    },
+    {
+      "title": "Poolside: Laguna XS 2.1 免费版",
+      "summary": "OpenRouter 永久免费,262144 token 上下文,编码代理模型",
+      "title_en": "Poolside: Laguna XS 2.1 (free)",
+      "summary_en": "Permanent free tier on OpenRouter for coding agent workloads with 262K context.",
+      "id": "openrouter-poolside-laguna-xs-2-1-free-free",
+      "kind": "always-free",
+      "model": "poolside/laguna-xs-2.1:free",
+      "provider": "OpenRouter",
+      "source_url": "https://openrouter.ai/api/v1/models",
+      "verified_at": "2026-09-11",
+      "expires_at": null,
+      "rpm": null,
+      "rpd": null,
+      "credit_usd": null,
+      "card_needed": false,
+      "openai_compatible": true,
+      "tags": [
+        "free",
+        "openrouter"
+      ],
+      "coding": true
     },
     {
       "id": "groq-qwen3-27b-free",
@@ -1087,6 +1386,52 @@
       "stale": true
     },
     {
+      "title": "Thinking Machines: Inkling Small 免费版",
+      "summary": "OpenRouter 永久免费,1048576 token 上下文,支持文本+图像+音频输入",
+      "title_en": "Thinking Machines: Inkling Small (free)",
+      "summary_en": "Permanent free tier on OpenRouter with 1M context, multimodal input (text, image, audio).",
+      "id": "openrouter-thinkingmachines-inkling-small-free-free",
+      "kind": "always-free",
+      "model": "thinkingmachines/inkling-small:free",
+      "provider": "OpenRouter",
+      "source_url": "https://openrouter.ai/api/v1/models",
+      "verified_at": "2026-09-11",
+      "expires_at": null,
+      "rpm": null,
+      "rpd": null,
+      "credit_usd": null,
+      "card_needed": false,
+      "openai_compatible": true,
+      "tags": [
+        "free",
+        "openrouter"
+      ],
+      "coding": false
+    },
+    {
+      "title": "Thinking Machines: Inkling 免费版",
+      "summary": "OpenRouter 永久免费,1048576 token 上下文,支持代理和工具调用",
+      "title_en": "Thinking Machines: Inkling (free)",
+      "summary_en": "Permanent free tier on OpenRouter with 1M context, designed for coding and agentic reasoning.",
+      "id": "openrouter-thinkingmachines-inkling-free-free",
+      "kind": "always-free",
+      "model": "thinkingmachines/inkling:free",
+      "provider": "OpenRouter",
+      "source_url": "https://openrouter.ai/api/v1/models",
+      "verified_at": "2026-09-11",
+      "expires_at": null,
+      "rpm": null,
+      "rpd": null,
+      "credit_usd": null,
+      "card_needed": false,
+      "openai_compatible": true,
+      "tags": [
+        "free",
+        "openrouter"
+      ],
+      "coding": true
+    },
+    {
       "id": "groq-whisper-large-v3-free",
       "title": "Whisper Large v3 (免费额度)",
       "title_en": "Whisper Large v3 (free tier)",
@@ -1111,6 +1456,29 @@
         "whisper"
       ],
       "stale": true
+    },
+    {
+      "title": "inclusionAI: Ling 3.0 Flash VL 免费版",
+      "summary": "OpenRouter 永久免费,262144 token 上下文,支持文本+图像+视频输入",
+      "title_en": "inclusionAI: Ling 3.0 Flash VL (free)",
+      "summary_en": "Permanent free tier on OpenRouter with 262K context, text+image+video input.",
+      "id": "openrouter-inclusionai-ling-3-0-flash-vl-free-free",
+      "kind": "always-free",
+      "model": "inclusionai/ling-3.0-flash-vl:free",
+      "provider": "OpenRouter",
+      "source_url": "https://openrouter.ai/api/v1/models",
+      "verified_at": "2026-09-11",
+      "expires_at": null,
+      "rpm": null,
+      "rpd": null,
+      "credit_usd": null,
+      "card_needed": false,
+      "openai_compatible": true,
+      "tags": [
+        "free",
+        "openrouter"
+      ],
+      "coding": false
     }
   ]
 }
