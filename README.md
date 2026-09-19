@@ -4,9 +4,9 @@ A source-linked, machine-readable collection of free tiers, trial credits, limit
 
 The data is published by [AI Plug](https://aiplug.work/en/deals), a self-hosted multi-provider LLM API relay. The [Chinese deals page](https://aiplug.work/deals) shows the same collection. Every entry carries a `source_url` and a `verified_at` date, so each claim can be checked against its source and its freshness is explicit.
 
-**Dataset generated:** `2026-09-18`<br>
-**Status cutoff:** `2026-09-18` (derived from `generated_at`)<br>
-**Entries:** 59 live, 0 expired
+**Dataset generated:** `2026-09-19`<br>
+**Status cutoff:** `2026-09-19` (derived from `generated_at`)<br>
+**Entries:** 58 live, 1 expired
 
 ## Live deals
 
@@ -14,8 +14,7 @@ Dated offers are ordered by the soonest expiry, followed by offers with no annou
 
 | Offer | Provider | Kind | Limits / credit | Expires | Coding-ready | Verified | Evidence |
 |---|---|---|---|---|:---:|---|---|
-| **GPT 5.6 Sol 50% off**<br><sub>OpenCode Zen offers GPT 5.6 Sol at 50% off through September 18, 2026.</sub> | OpenCode Zen | `price-cut` | — | 2026-09-18 | Yes | 2026-08-31 | [Source](<https://opencode.ai/docs/zen>) |
-| **Dots Studio: Dots3-Note Preview (free)**<br><sub>Free preview on OpenRouter through Sept 30, 512K context, lightweight MoE.</sub> | OpenRouter | `time-limited` | — | 2026-09-30 | No | 2026-09-18 | [Source](<https://openrouter.ai/api/v1/models>) |
+| **Dots Studio: Dots3-Note Preview (free)**<br><sub>OpenRouter free preview through 2026-09-30, 512000 context, text+image.</sub> | OpenRouter | `time-limited` | — | 2026-09-30 | No | 2026-09-19 | [Source](<https://openrouter.ai/api/v1/models>) |
 | **Union Alpha (free)**<br><sub>Permanently free on OpenRouter with 262K context, text and image input.</sub> | OpenRouter | `time-limited` | — | 2098-12-31 | Yes | 2026-09-17 | [Source](<https://openrouter.ai/api/v1/models>) |
 | **Cerebras $5 trial credit**<br><sub>New accounts receive $5 in trial credit, usable across all Cerebras models.</sub> | Cerebras Inference | `trial-credit` | $5.0 credit | No announced end date | No | 2026-08-31 | [Source](<https://www.cerebras.ai/pricing>) |
 | **Cloudflare Workers AI free tier**<br><sub>10,000 neurons per day, about 300 RPM for text models.</sub> | Cloudflare Workers AI | `free-tier` | 300 RPM | No announced end date | No | 2026-08-31 | [Source](<https://developers.cloudflare.com/workers-ai/platform/pricing/>) |
@@ -49,36 +48,38 @@ Dated offers are ordered by the soonest expiry, followed by offers with no annou
 | **MiMo-V2.5 (free for a limited time)**<br><sub>Free on OpenCode Zen for a limited time.</sub> | OpenCode Zen | `time-limited` | — | No announced end date | Yes | 2026-08-31 | [Source](<https://opencode.ai/docs/zen>) |
 | **Nemotron 3 Ultra Free (free)**<br><sub>NVIDIA free endpoint for testing only; do not submit sensitive data.</sub> | OpenCode Zen (NVIDIA 端点) | `time-limited` | — | No announced end date | Yes | 2026-08-31 | [Source](<https://opencode.ai/docs/zen>) |
 | **Nemotron 3.5 Lightning Free (free)**<br><sub>NVIDIA free endpoint for testing only; do not submit sensitive data.</sub> | OpenCode Zen (NVIDIA 端点) | `time-limited` | — | No announced end date | Yes | 2026-08-31 | [Source](<https://opencode.ai/docs/zen>) |
-| **Cohere: North Mini Code (free)**<br><sub>Permanently free on OpenRouter, 256K context, Cohere's agentic coding model with sparse MoE.</sub> | OpenRouter | `always-free` | — | No announced end date | Yes | 2026-09-18 | [Source](<https://openrouter.ai/api/v1/models>) |
-| **DeepSeek: DeepSeek V4 Flash 0731 (free)**<br><sub>Permanently free on OpenRouter, 1M context, sparse MoE for coding and reasoning.</sub> | OpenRouter | `always-free` | — | No announced end date | Yes | 2026-09-18 | [Source](<https://openrouter.ai/api/v1/models>) |
-| **Google: Gemma 4 26B A4B (free)**<br><sub>Permanently free on OpenRouter, 262K context, instruction-tuned MoE delivering near-31B quality.</sub> | OpenRouter | `always-free` | — | No announced end date | No | 2026-09-18 | [Source](<https://openrouter.ai/api/v1/models>) |
-| **Google: Gemma 4 31B (free)**<br><sub>Permanently free on OpenRouter, 262K context, dense multimodal model with native function calling.</sub> | OpenRouter | `always-free` | — | No announced end date | Yes | 2026-09-18 | [Source](<https://openrouter.ai/api/v1/models>) |
+| **Cohere: North Mini Code (free)**<br><sub>OpenRouter permanent free tier, 256000 context, agentic coding model.</sub> | OpenRouter | `always-free` | — | No announced end date | Yes | 2026-09-19 | [Source](<https://openrouter.ai/api/v1/models>) |
+| **DeepSeek: DeepSeek V4 Flash 0731 (free)**<br><sub>OpenRouter permanent free tier, 1048576 context, coding and reasoning.</sub> | OpenRouter | `always-free` | — | No announced end date | Yes | 2026-09-19 | [Source](<https://openrouter.ai/api/v1/models>) |
+| **Google: Gemma 4 26B A4B (free)**<br><sub>OpenRouter permanent free tier, 262144 context, multimodal MoE model.</sub> | OpenRouter | `always-free` | — | No announced end date | No | 2026-09-19 | [Source](<https://openrouter.ai/api/v1/models>) |
+| **Google: Gemma 4 31B (free)**<br><sub>OpenRouter permanent free tier, 262144 context, dense multimodal model.</sub> | OpenRouter | `always-free` | — | No announced end date | Yes | 2026-09-19 | [Source](<https://openrouter.ai/api/v1/models>) |
 | **Google: Lyria 3 Clip Preview (free)**<br><sub>Permanently free on OpenRouter with 1M context, generates high-quality music clips.</sub> | OpenRouter | `always-free` | — | No announced end date | No | 2026-09-17 | [Source](<https://openrouter.ai/api/v1/models>) |
 | **Google: Lyria 3 Pro Preview (free)**<br><sub>Permanently free on OpenRouter with 1M context, generates high-quality music.</sub> | OpenRouter | `always-free` | — | No announced end date | No | 2026-09-17 | [Source](<https://openrouter.ai/api/v1/models>) |
-| **inclusionAI: Ling 3.0 Flash Fin (free)**<br><sub>Permanently free on OpenRouter, 262K context, finance-focused MoE model.</sub> | OpenRouter | `always-free` | — | No announced end date | No | 2026-09-18 | [Source](<https://openrouter.ai/api/v1/models>) |
-| **inclusionAI: Ling 3.0 Flash Sante (free)**<br><sub>Permanently free on OpenRouter, 262K context, health and medicine-focused MoE model.</sub> | OpenRouter | `always-free` | — | No announced end date | No | 2026-09-18 | [Source](<https://openrouter.ai/api/v1/models>) |
-| **inclusionAI: Ling 3.0 Flash VL (free)**<br><sub>Permanently free on OpenRouter, 262K context, text+image+video input.</sub> | OpenRouter | `always-free` | — | No announced end date | No | 2026-09-18 | [Source](<https://openrouter.ai/api/v1/models>) |
-| **LiquidAI: LFM2.5-2.6B (free)**<br><sub>Permanently free on OpenRouter, 64K context, compact reasoning for agent workflows and RAG.</sub> | OpenRouter | `always-free` | — | No announced end date | No | 2026-09-18 | [Source](<https://openrouter.ai/api/v1/models>) |
-| **Nex AGI: Nex-N2.5-Mini (free)**<br><sub>Permanently free on OpenRouter, 262K context, built for agentic coding within visual feedback loops.</sub> | OpenRouter | `always-free` | — | No announced end date | Yes | 2026-09-18 | [Source](<https://openrouter.ai/api/v1/models>) |
-| **Nex AGI: Nex-N2.5-Pro (free)**<br><sub>Permanently free on OpenRouter, 262K context, agentic coding model with visual exploration.</sub> | OpenRouter | `always-free` | — | No announced end date | Yes | 2026-09-18 | [Source](<https://openrouter.ai/api/v1/models>) |
-| **NVIDIA: Nemotron 3.5 Content Safety (free)**<br><sub>Permanently free on OpenRouter, 128K context, multimodal content safety guardrail model.</sub> | OpenRouter | `always-free` | — | No announced end date | No | 2026-09-18 | [Source](<https://openrouter.ai/api/v1/models>) |
-| **NVIDIA: Nemotron 3.5 Lightning (free)**<br><sub>Permanently free on OpenRouter, 1M context, MoE model for high-throughput agentic workloads.</sub> | OpenRouter | `always-free` | — | No announced end date | Yes | 2026-09-18 | [Source](<https://openrouter.ai/api/v1/models>) |
-| **NVIDIA: Nemotron 3 Nano Omni (free)**<br><sub>Permanently free on OpenRouter, 256K context, multimodal perception sub-agent for enterprise systems.</sub> | OpenRouter | `always-free` | — | No announced end date | Yes | 2026-09-18 | [Source](<https://openrouter.ai/api/v1/models>) |
-| **NVIDIA: Nemotron 3 Super (free)**<br><sub>Permanently free on OpenRouter, 262K context, hybrid Mamba-Transformer MoE for multi-agent systems.</sub> | OpenRouter | `always-free` | — | No announced end date | Yes | 2026-09-18 | [Source](<https://openrouter.ai/api/v1/models>) |
-| **NVIDIA: Nemotron 3 Ultra (free)**<br><sub>Permanently free on OpenRouter, 1M context, frontier reasoning and orchestration MoE.</sub> | OpenRouter | `always-free` | — | No announced end date | Yes | 2026-09-18 | [Source](<https://openrouter.ai/api/v1/models>) |
-| **Poolside: Laguna S 2.1 (free)**<br><sub>Permanently free on OpenRouter, 262K context, coding agent model scoring 70.2% on Terminal-Bench.</sub> | OpenRouter | `always-free` | — | No announced end date | Yes | 2026-09-18 | [Source](<https://openrouter.ai/api/v1/models>) |
-| **Poolside: Laguna XS 2.1 (free)**<br><sub>Permanently free on OpenRouter, 262K context, compact coding agent in 33B-3B class.</sub> | OpenRouter | `always-free` | — | No announced end date | Yes | 2026-09-18 | [Source](<https://openrouter.ai/api/v1/models>) |
-| **Qwen: Qwen3.8 27B (free)**<br><sub>Permanently free on OpenRouter, 262K context, suited for coding and long-running agent tasks.</sub> | OpenRouter | `always-free` | — | No announced end date | Yes | 2026-09-18 | [Source](<https://openrouter.ai/api/v1/models>) |
-| **Thinking Machines: Inkling (free)**<br><sub>Permanently free on OpenRouter, 1M context, multimodal MoE for reasoning, coding, and agentic systems.</sub> | OpenRouter | `always-free` | — | No announced end date | Yes | 2026-09-18 | [Source](<https://openrouter.ai/api/v1/models>) |
-| **Thinking Machines: Inkling Small (free)**<br><sub>Permanently free on OpenRouter, 1M context, multimodal MoE with 12B active parameters.</sub> | OpenRouter | `always-free` | — | No announced end date | No | 2026-09-18 | [Source](<https://openrouter.ai/api/v1/models>) |
-| **Z.ai: GLM 5.2 (free)**<br><sub>Permanently free on OpenRouter, 32K context, large-scale reasoning for long-horizon agent workflows.</sub> | OpenRouter | `always-free` | — | No announced end date | No | 2026-09-18 | [Source](<https://openrouter.ai/api/v1/models>) |
+| **inclusionAI: Ling 3.0 Flash Fin (free)**<br><sub>OpenRouter permanent free tier, 262144 context, finance and investment specialized.</sub> | OpenRouter | `always-free` | — | No announced end date | No | 2026-09-19 | [Source](<https://openrouter.ai/api/v1/models>) |
+| **inclusionAI: Ling 3.0 Flash Sante (free)**<br><sub>OpenRouter permanent free tier, 262144 context, health and medicine specialized.</sub> | OpenRouter | `always-free` | — | No announced end date | No | 2026-09-19 | [Source](<https://openrouter.ai/api/v1/models>) |
+| **inclusionAI: Ling 3.0 Flash VL (free)**<br><sub>OpenRouter permanent free tier, 262144 context, text+image+video to text.</sub> | OpenRouter | `always-free` | — | No announced end date | No | 2026-09-19 | [Source](<https://openrouter.ai/api/v1/models>) |
+| **LiquidAI: LFM2.5-2.6B (free)**<br><sub>OpenRouter permanent free tier, 65536 context, agent workflows and RAG.</sub> | OpenRouter | `always-free` | — | No announced end date | No | 2026-09-19 | [Source](<https://openrouter.ai/api/v1/models>) |
+| **Nex AGI: Nex-N2.5-Mini (free)**<br><sub>OpenRouter permanent free tier, 262144 context, agentic coding capable.</sub> | OpenRouter | `always-free` | — | No announced end date | Yes | 2026-09-19 | [Source](<https://openrouter.ai/api/v1/models>) |
+| **Nex AGI: Nex-N2.5-Pro (free)**<br><sub>OpenRouter permanent free tier, 262144 context, agentic coding focused.</sub> | OpenRouter | `always-free` | — | No announced end date | Yes | 2026-09-19 | [Source](<https://openrouter.ai/api/v1/models>) |
+| **NVIDIA: Nemotron 3.5 Content Safety (free)**<br><sub>OpenRouter permanent free tier, 128000 context, content safety guardrail model.</sub> | OpenRouter | `always-free` | — | No announced end date | No | 2026-09-19 | [Source](<https://openrouter.ai/api/v1/models>) |
+| **NVIDIA: Nemotron 3.5 Lightning (free)**<br><sub>OpenRouter permanent free tier, 1000000 context, high-throughput agentic workloads.</sub> | OpenRouter | `always-free` | — | No announced end date | Yes | 2026-09-19 | [Source](<https://openrouter.ai/api/v1/models>) |
+| **NVIDIA: Nemotron 3 Nano Omni (free)**<br><sub>OpenRouter permanent free tier, 256000 context, multimodal perception sub-agent.</sub> | OpenRouter | `always-free` | — | No announced end date | Yes | 2026-09-19 | [Source](<https://openrouter.ai/api/v1/models>) |
+| **NVIDIA: Nemotron 3 Super (free)**<br><sub>OpenRouter permanent free tier, 262144 context, hybrid MoE for multi-agent applications.</sub> | OpenRouter | `always-free` | — | No announced end date | Yes | 2026-09-19 | [Source](<https://openrouter.ai/api/v1/models>) |
+| **NVIDIA: Nemotron 3 Ultra (free)**<br><sub>OpenRouter permanent free tier, 1000000 context, frontier reasoning and orchestration.</sub> | OpenRouter | `always-free` | — | No announced end date | Yes | 2026-09-19 | [Source](<https://openrouter.ai/api/v1/models>) |
+| **Poolside: Laguna S 2.1 (free)**<br><sub>OpenRouter permanent free tier, 262144 context, coding agent model.</sub> | OpenRouter | `always-free` | — | No announced end date | Yes | 2026-09-19 | [Source](<https://openrouter.ai/api/v1/models>) |
+| **Poolside: Laguna XS 2.1 (free)**<br><sub>OpenRouter permanent free tier, 262144 context, compact coding agent model.</sub> | OpenRouter | `always-free` | — | No announced end date | Yes | 2026-09-19 | [Source](<https://openrouter.ai/api/v1/models>) |
+| **Qwen: Qwen3.8 27B (free)**<br><sub>OpenRouter permanent free tier, 262144 context, text+image+video, coding and agent capable.</sub> | OpenRouter | `always-free` | — | No announced end date | Yes | 2026-09-19 | [Source](<https://openrouter.ai/api/v1/models>) |
+| **Thinking Machines: Inkling (free)**<br><sub>OpenRouter permanent free tier, 1048576 context, general reasoning and coding agents.</sub> | OpenRouter | `always-free` | — | No announced end date | Yes | 2026-09-19 | [Source](<https://openrouter.ai/api/v1/models>) |
+| **Thinking Machines: Inkling Small (free)**<br><sub>OpenRouter permanent free tier, 1048576 context, multimodal coding and agents.</sub> | OpenRouter | `always-free` | — | No announced end date | No | 2026-09-19 | [Source](<https://openrouter.ai/api/v1/models>) |
+| **Z.ai: GLM 5.2 (free)**<br><sub>OpenRouter permanent free tier, 32768 context, long-horizon agent workflows and software engineering.</sub> | OpenRouter | `always-free` | — | No announced end date | No | 2026-09-19 | [Source](<https://openrouter.ai/api/v1/models>) |
 | **Ternary Bonsai 27B (free)**<br><sub>Together AI's only free serverless model, by Prism ML, 262K context; no function calling or structured output, dynamic limits (see 429 headers)</sub> | Together AI | `always-free` | — | No announced end date | No | 2026-08-31 | [Source](<https://docs.together.ai/docs/serverless-models>) |
 
 ## Expired offers
 
 Expired entries remain available as a record of previously verified offers.
 
-No entries had expired by this snapshot's status cutoff.
+| Offer | Provider | Kind | Expired | Evidence |
+|---|---|---|---|---|
+| **GPT 5.6 Sol 50% off** | OpenCode Zen | `price-cut` | 2026-09-18 | [Source](<https://opencode.ai/docs/zen>) |
 
 ## Data contract
 
