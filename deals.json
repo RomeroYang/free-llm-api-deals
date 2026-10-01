@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30",
+  "generated_at": "2026-10-01",
   "entries": [
     {
       "id": "opencode-zen-gpt-5.6-sol-half-price",
@@ -1457,7 +1457,8 @@
         "free",
         "openrouter"
       ],
-      "coding": false
+      "coding": false,
+      "stale": true
     },
     {
       "title": "inclusionAI: Ling 3.0 Flash Fin (免费)",
