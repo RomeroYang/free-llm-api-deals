@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02",
+  "generated_at": "2026-10-03",
   "entries": [
     {
       "id": "opencode-zen-gpt-5.6-sol-half-price",
@@ -47,7 +47,8 @@
         "free",
         "openrouter"
       ],
-      "coding": true
+      "coding": true,
+      "stale": true
     },
     {
       "title": "Nex AGI: Nex-N2.5-Pro (免费)",
@@ -70,7 +71,8 @@
         "free",
         "openrouter"
       ],
-      "coding": true
+      "coding": true,
+      "stale": true
     },
     {
       "title": "Space Bunny Alpha（免费至 2026-10-05）",
@@ -1457,7 +1459,8 @@
         "free",
         "openrouter"
       ],
-      "coding": false
+      "coding": false,
+      "stale": true
     },
     {
       "title": "inclusionAI Ling 3.0 Flash VL 永久免费",
