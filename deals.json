@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03",
+  "generated_at": "2026-10-04",
   "entries": [
     {
       "id": "opencode-zen-gpt-5.6-sol-half-price",
@@ -1507,7 +1507,8 @@
         "free",
         "openrouter"
       ],
-      "coding": false
+      "coding": false,
+      "stale": true
     },
     {
       "title": "inclusionAI: Ling 3.0 Flash Sante（免费）",
