@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06",
+  "generated_at": "2026-10-07",
   "entries": [
     {
       "id": "opencode-zen-gpt-5.6-sol-half-price",
@@ -725,7 +725,8 @@
         "free",
         "openrouter"
       ],
-      "coding": false
+      "coding": false,
+      "stale": true
     },
     {
       "title": "Google: Lyria 3 Pro Preview 免费模型",
@@ -748,7 +749,8 @@
         "free",
         "openrouter"
       ],
-      "coding": false
+      "coding": false,
+      "stale": true
     },
     {
       "id": "groq-compound-free",
