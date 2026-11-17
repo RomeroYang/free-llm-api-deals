@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16",
+  "generated_at": "2026-11-17",
   "entries": [
     {
       "id": "opencode-zen-gpt-5.6-sol-half-price",
@@ -459,7 +459,8 @@
         "free",
         "openrouter"
       ],
-      "coding": true
+      "coding": true,
+      "stale": true
     },
     {
       "id": "nvidia-direct-deepseek-v4-pro-free",
